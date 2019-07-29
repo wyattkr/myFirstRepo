@@ -38,9 +38,9 @@ var anotherBoolean = true;
 // enhance your code and make it a little more responsive 
 // you need to add conditionals. True / False conditions
 //  that start or stop your code. 
-var names=["kim", "latonya"]
-var first=name[0]
-var last=name[names.length-1]
+var names=["kim", "latonya"];
+var first=name[0];
+var last=name[names.length-1];
 //Arrays can be used to store different element
 // that can be either names or numbers.
 var y;
