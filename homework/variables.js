@@ -38,3 +38,21 @@ var anotherBoolean = true;
 // enhance your code and make it a little more responsive 
 // you need to add conditionals. True / False conditions
 //  that start or stop your code. 
+var names=["kim", "latonya"]
+var first=name[0]
+var last=name[names.length-1]
+//Arrays can be used to store different element
+// that can be either names or numbers.
+var y;
+// This is used as an undefined variable when 
+// the y is not given an assigned value.
+var x=null;
+//The value null or empty object represents the intentional
+// absence of an assigned object.
+var myScooter={color: 'blue', wheels: 2}
+// JavaScript allows you to define the object
+// type by writing out a specific description.
+var x =house;
+document.getElementById("demo").innerHTML = typeof x
+// Type of- will allow you to identify the variable of x.
+
