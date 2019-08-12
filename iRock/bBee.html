@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+    <!-- Code Goes Here -->
+    <!-- Use my script tag -->
+    <script type="text/javascript">
+    // Created a javascript function with the name touchRock.
+    function  touchBee() {
+        // Create a new variable named userName set it equal you prompt
+        //Asked the user for their name
+        var userName = prompt("What is your name?", "Enter your name here.");
+        //decision we set up a if statement to decide it the user entered a Name.
+        if (userName) {
+            // If user entered Name we alert the user Its nice to meet you.
+            alert("It is good to meet you," + userName + "."),
+            // Here we change the photo from unhappy to happy
+            document.getElementById("beeimg").src = "Bee.png";
+        } 
+            
+                
+    }
+    
+    
+    </script>
+        <title style="color:darkgreen";"> Bee - The Virtual Pet Bee</title>
+    
+    </head>
+    
+    <body onload="alert('Hello I am Your Pet Bee')">
+    <div style="margin-top:100px; text-align:center" class="alert alert-primary">
+        <img id="beeimg" src="Bee.png" alt="bee" style="cursor:pointer" onclick="touchBee();">
+    </div>
+        
+    </body>
+    </html>
