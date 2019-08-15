@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Switch Month of the Year</title>
+</head>
+<body>
+    <h1>Switch Program</h1>
+
+    <p id=>January,February,March,April,May,June,July,August,
+        September,October,November and December</p>
+        
+    <input id="myInput" type="text">
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+    <script>
+    function myFunction() {
+        var text;
+        var months = document.getElementById("myInput").value;
+  
+
+    switch( months) {
+        case "January": {
+            text = "January starts  the new year with a BANG!!";
+            break;
+        }
+        case "February":{
+            text = "February we shower others with love";
+            break;
+        }
+        case "March": {
+            text = "March we are entering into a new season.";
+            break;
+        }
+        case "April": {
+            text = "April showers bring may flowers.";
+            break;
+        }
+        case "May": {
+            text = "May we celebrate Memorial Day- our loved ones.";
+            break;
+        }
+        case "June": {
+            text = "June is the beginning of Summer.";
+            break;
+        }
+        case "July": {
+            text = "July the nation celebrate Independence Day.";
+            break;
+        }
+        case "August": {
+            text = "August is the ending of Summer.";
+            break;
+        }
+        case "September": {
+            text = "September we celebrate Labor Day.";
+            break;
+        }
+        case  "October": {
+            text = "October we celebrate Halloween.";
+            break;
+        }
+        case "November": {
+            text = "November we celebrate Thanksgiving.";
+            break;
+        }
+        case "December": {
+            text = "December we celebrate Christmas.";
+            break;
+        }
+        default:
+        text = "What is your favorite month of the Year?";
+    }
+        document.getElementById("demo").innerHTML = text;
+    }
+
+    </script> 
+     
+     
+</body>
+</html>

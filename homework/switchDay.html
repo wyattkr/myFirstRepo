@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Switch Week Day</title>
+</head>
+<body>
+    <h1>Switch Program</h1>
+    <p id="demo"></p>
+    <script>
+    var day;
+    // Homework for switch Days of the week  
+
+    switch(new Date().getDay){
+        case 0:{
+            day = "Sunday";
+            break;
+        }
+        case 1:{
+            day = "Monday";
+            break;
+        }
+        case 2: {
+            day = "Tuesday";
+            break;
+        }
+        case 3: {
+            day = "Wednesday";
+            break;
+        }
+        case 4: {
+            day = "Thursday";
+            break;
+        }
+        case 5: {
+            day = "Friday";
+            break;
+        }
+        case 6: {
+            day = "Saturday";
+            break;
+        }
+        default:
+            day = "I got the days of the week done-WOW!"
+    }
+    document.getElementById("demo").innerHTML = day;
+    </script> 
+     
+     
+</body>
+</html>   
