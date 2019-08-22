@@ -1,35 +1,36 @@
-var x;
-var y;
-var z;
 
-function putTheNumbsTogether(x,y) {
-    z = x +y;
-    console.log(z)
-}
-putTheNumbsTogether(3, 7);
 
-function seperateTheNumbsTogether(x,y){
-    z = x-y;
-    console.log(z)
+function dotthemulti() {
+    var x = document.getElementById("usernum1").Value;
+    var y = document.getElementById("usernum2").Value;
+    var z = x * y; 
+    document.getElementById("demo3").innerHtml = z
 }
-seperateTheNumbsTogether(7,3)
 
-function multiplyTheNumbsTogether(x,y) {
-    z = x*y;
-    console.log(z)
-}
-multiplyTheNumbsTogether(7,3);
 
-function quotientofTheNumbsTogether(y,x) {
-    z = x/y;
-    console.log(z)
-}
-quotientofTheNumbsTogether(3,7);
+function dothesubt(){
+    var x = document.getElementById("usernum1").Value;
+    var y = document.getElementById("usernum2").Value;
+    var z = x - y; 
+    document.getElementById("demo3").innerHtml = z
+}   
 
-function incrementofTheNumbsTogether(x,y){
-    z = x,y ;
-    z = ++z
-    console.log(++z)
+
+function dotheadd() {
+    var x = document.getElementById("usernum1").Value;
+    var y = document.getElementById("usernum2").Value;
+    var z = x + y;
+    var add= x + y;
+    document.getElementById("demo3").innerHtml = z  
 }
-incrementofTheNumbsTogether(7,3);
+
+
+function dothediv() {
+    var x = document.getElementById("usernum1").Value;
+    var y = document.getElementById("usernum2").Value;
+    var z = x / y; 
+    document.getElementById("demo3").innerHtml = z  
+} 
+
+
 
