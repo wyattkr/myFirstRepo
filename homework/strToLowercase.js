@@ -1,11 +1,8 @@
 //convert the string to lowercase letter
-function tolowercase(string){
-
-var string = "This Is The Day";
-var res = str.tolowercase();
+function toLowerCase(str)
+{
+  var string = "This Is The Day"
+  var res = str.toLowerCase
 }
-console.log(str.tolowercase("This is the Day"));
+console.log(toLowerCase("This Is The Day"));
 
-function vowel(c){
-  ['a','e','i','o','u'].indexOf(c.lowercase())!== -1  
-}
